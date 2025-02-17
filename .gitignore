@@ -6,6 +6,11 @@
 # dotenv files
 .env
 
+# Ignorar appsettings em qualquer subpasta
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.*.json
+
 # User-specific files
 *.rsuser
 *.suo
